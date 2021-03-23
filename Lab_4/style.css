@@ -1,0 +1,55 @@
+body {
+    background-color: #FCF0E4;
+    font-family: "Comic Sans MS", serif;
+}
+
+img {
+    margin: 5% 0 5% 50%;
+    transform: translateX(-50%);
+    animation: slowChanging 2s ease-in infinite;
+}
+
+@keyframes slowChanging {
+    0%, 100% {
+        opacity: 0;
+    }
+    10%, 90% {
+        opacity: 20%;
+
+    }
+    20%, 80% {
+        opacity: 40%;
+
+    }
+    30%, 70% {
+        opacity: 60%;
+
+    }
+    40%, 60% {
+        opacity: 80%;
+
+    }
+    50% {
+        opacity: 100%;
+
+    }
+}
+
+.button1, .button2, .button3 {
+    font-family: "Comic Sans MS", serif;
+    border-radius: 10px;
+    outline: none;
+}
+
+.button1 {
+    background-color: #7FCECB;
+}
+
+.button2 {
+    background-color: #BBDA97;
+    margin-left: 20px;
+}
+
+.button3 {
+    background-color: #B0A7D2;
+}
