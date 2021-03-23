@@ -1,0 +1,56 @@
+body {
+    background-color: #FCF0E4;
+    font-family: "Comic Sans MS", serif;
+}
+
+img {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-55%);
+    top: 20%;
+}
+
+.text {
+    position: absolute;
+    font-size: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.btn {
+    position: fixed;
+    display: flex;
+    top: 35%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.button1, .button2 {
+    width: 220px;
+    height: 180px;
+    border-radius: 500px;
+    font-size: 80px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 40px;
+    transition: 1s;
+}
+
+.button1 {
+    background-color: #B2DFD6;
+    margin-right: 350px;
+}
+
+.button1:hover {
+    transform: rotate(360deg);
+}
+
+.button2 {
+    background-color: #F9B5C4;
+    margin-left: 350px;
+}
+
+.button2:hover {
+    transform: rotate(-360deg);
+}
