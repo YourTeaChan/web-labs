@@ -1,0 +1,304 @@
+html {
+    height: 100%;
+}
+
+body {
+    background: linear-gradient(#451D5F, #9c66e2) fixed;
+    margin: 0;
+    font-family: "Comic Sans MS", serif;
+}
+
+.gifsLeft, .gifsRight {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    margin-top: -20px;
+}
+
+.gifsLeft {
+    margin-left: -20px;
+}
+
+.gifsRight {
+    margin-left: 1320px;
+}
+
+.flexboxMenu {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+.block1, .block2, .block3,
+.block4, .block5, .block6 {
+    background: linear-gradient(90deg, #ffffff, #9c66e2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border-bottom: 3px dotted #9c66e2;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.block1:hover, .block2:hover, .block3:hover,
+.block4:hover, .block5:hover, .block6:hover, .block5 {
+    background: linear-gradient(90deg, #ffffff, #EBE822);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border-bottom: 3px dotted #EBE822;
+}
+
+.titleStar1 {
+    position: absolute;
+    top: 50px;
+    left: 0;
+    width: 100px;
+    animation-name: left-star;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+
+.titleStar2 {
+    position: absolute;
+    top: 50px;
+    right: 0;
+    width: 100px;
+    animation-name: right-star;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes left-star {
+    0% {
+        left: 0;
+        transform: scale(0.5);
+    }
+    100% {
+        left: 400px;
+        transform: rotate(180deg) scale(1);
+    }
+}
+
+@keyframes right-star {
+    0% {
+        right: 0;
+        transform: scale(0.5);
+    }
+    100% {
+        right: 400px;
+        transform: rotate(-180deg) scale(1);
+    }
+}
+
+.title {
+    margin-top: 70px;
+    text-align: center;
+}
+
+video {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 10px;
+}
+
+.text1, .text2 {
+    font-family: "Comic Sans MS", serif;
+    margin-top: 25px;
+    margin-left: 250px;
+    text-align: justify;
+}
+
+table {
+    text-align: center;
+    font-size: 14px;
+    border: 5px solid #451D5F;
+    background-color: #451D5F;
+    border-spacing: 0 0;
+    margin-left: 190px;
+    margin-right: 190px;
+    border-radius: 10px;
+}
+
+th {
+    background: #9c66e2;
+    border: 2px solid #451D5F;
+}
+
+td {
+    border: 2px solid #451D5F;
+}
+
+.topLeft {
+    border-top-left-radius: 10px;
+}
+
+.topRight {
+    border-top-right-radius: 10px;
+}
+
+.bottomLeft {
+    border-bottom-left-radius: 10px;
+}
+
+.bottomRight {
+    border-bottom-right-radius: 10px;
+}
+
+.temperature, .trueColor, .visibleColor {
+    width: 150px;
+}
+
+.starO {
+    background: #9BB0FF;
+}
+
+.visibleColorO, .starB {
+    background: #AABFFF;
+}
+
+.trueColorB, .visibleColorB, .starA {
+    background: #CAD7FF;
+}
+
+.trueColorA, .visibleColorA, .starF, .trueColorF {
+    background: #F8F7FF;
+}
+
+.starF {
+    background: #F8F7FF;
+}
+
+.visibleColorF, .starG {
+    background: #FFF4EA;
+}
+
+.trueColorG, .visibleColorG {
+    background: #FFF2A1;
+}
+
+.starK {
+    background: #FFD2A1;
+}
+
+.trueColorK {
+    background: #FFC46F;
+}
+
+.visibleColorK {
+    background: #FFE46F;
+}
+
+.starM {
+    background: #FFCC6F;
+}
+
+.trueColorM {
+    background: #FF6060;
+}
+
+.visibleColorM {
+    background: #FFA040;
+}
+
+.flexbox {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    height: 400px;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    transform-style: preserve-3d;
+    perspective: 1000px;
+}
+
+.Stephenson, .Sirius, .Sun {
+    border-radius: 10px;
+    transition: 1s;
+}
+
+.Sirius {
+    align-self: flex-start;
+}
+
+.Stephenson:hover {
+    transform: rotateY(45deg);
+}
+
+.Sirius:hover {
+    transform: translateZ(-100px);
+}
+
+.Sun:hover {
+    transform: rotateY(-45deg);
+}
+
+.signature {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    height: 10px;
+    align-items: flex-end;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+.sign {
+    font-family: "Comic Sans MS", serif;
+}
+
+.progressMessage {
+    position: absolute;
+    color: #451D5F;
+    margin-top: 80px;
+    left: 670px;
+}
+
+progress {
+    position: absolute;
+    width: 310px;
+    margin-top: 100px;
+    left: 600px;
+    background: #451D5F;
+    border: 3px solid #451D5F;
+    border-radius: 20px;
+}
+
+progress::-webkit-progress-bar {
+    border-radius: 10px;
+    background: #9c66e2;
+}
+
+progress::-webkit-progress-value {
+    border-radius: 10px;
+    background: #451D5F;
+}
+
+.author {
+    position: absolute;
+    margin-top: 10%;
+    left: 550px;
+    color: #451D5F;
+}
+
+button {
+    position: absolute;
+    outline: none;
+    border-radius: 20px;
+    margin-top: 10%;
+    left: 900px;
+    color: #451D5F;
+    background-color: #9c66e2;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: white;
+}
