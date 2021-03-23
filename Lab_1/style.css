@@ -1,0 +1,239 @@
+body {
+    background: url("images/Background.jpg") repeat center fixed;
+    width: 100%;
+    height: 1080px;
+    overflow-x: hidden;
+    margin: 0;
+    font-family: "Comic Sans MS", serif;
+}
+
+.logo {
+    margin: 0;
+    position: fixed;
+    top: 110px;
+    left: 50px;
+    font-family: "Brush Script MT", serif;
+    color: #677a49;
+    font-size: 70px;
+}
+
+.logoImage {
+    position: fixed;
+    width: 200px;
+    top: 0;
+    left: 60px;
+    transform: scale(1);
+}
+
+.dws {
+    position: fixed;
+    left: 50px;
+    top: 270px;
+}
+
+.button {
+    margin-top: 20px;
+    transition: 0.5s;
+    background: #677a49;
+    border-radius: 20px;
+    width: 220px;
+    height: 70px;
+    display: block;
+    font-size: 20px;
+    color: #deffaf;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 35px;
+}
+
+.button:hover {
+    background: #bc676f;
+    color: #fad2ca;
+    transition: 0.3s;
+}
+
+.quote {
+    position: absolute;
+    margin: 0 10px 20px 920px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+}
+
+.image1, .image2, .image3, .image4 {
+    position: relative;
+    width: 745px;
+    border: 7px solid #677a49;
+    border-radius: 20px;
+}
+
+.text1, .text2, .text3 {
+    position: relative;
+    margin: 50px 380px 30px 380px;
+    text-align: justify;
+    font-size: 17px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+}
+
+.text1 {
+    top: 100px
+}
+
+.header1, .header2, .header3 {
+    text-align: center;
+}
+
+.video {
+    position: relative;
+    width: 745px;
+    margin: 100px 0 30px 380px;
+    border: 7px solid #825F49;
+    border-radius: 20px;
+}
+
+.video:focus{
+    outline: none;
+}
+
+table {
+    font-size: 14px;
+    background: #825F49;
+    border: 7px solid #825F49;
+    border-spacing: 0 0;
+    border-radius: 20px;
+    margin: 20px 380px 0 380px;
+}
+
+td {
+    border: 3px solid #825F49;
+    text-align: center;
+}
+
+th {
+    border: 3px solid #825F49;
+}
+
+.sort {
+    width: 100px;
+}
+
+.oxidation {
+    width: 120px;
+}
+
+.title {
+    border: 3px solid #825F49;
+    background: #825F49;
+    color: white;
+}
+
+.whiteTea, .greenTea, .yellowTea, .oolong, .blackTea, .puer {
+    background: #cdef84;
+}
+
+.topLeft {
+    border-top-left-radius: 20px;
+}
+
+.topRight {
+    border-top-right-radius: 20px;
+}
+
+.bottomLeft {
+    border-bottom-left-radius: 20px;
+}
+
+.bottomRight {
+    border-bottom-right-radius: 20px;
+}
+
+.image3 {
+    margin: 30px 0 30px 380px;
+}
+
+.text4 {
+    position: absolute;
+    margin-top: 150px;
+    left: 90px;
+    color: #825F49;
+    font-size: 50px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+}
+
+.response {
+    float: right;
+    right: 100px;
+    width: 320px;
+    padding: 10px;
+}
+
+progress {
+    width: 310px;
+    margin-top: 30px;
+    background: #677a49;
+    border: 3px solid #677a49;
+    border-radius: 20px;
+}
+
+progress::-webkit-progress-bar {
+    border-radius: 10px;
+    background: #deffaf;
+}
+
+progress::-webkit-progress-value {
+    border-radius: 10px;
+    background: #677a49;
+}
+
+input[type="email"]::-webkit-input-placeholder,
+textarea[type="text"]::-webkit-input-placeholder {
+    color: #ccc;
+}
+
+.user, .comment, .rating {
+    margin-top: 10px;
+    background: #677a49;
+    border: 3px solid #677a49;
+    border-radius: 20px;
+    width: 300px;
+    height: 30px;
+    color: #deffaf;
+    font-family: "Comic Sans MS", serif;
+    font-size: 18px;
+    padding: 5px;
+    transition: 0.3s;
+}
+
+.comment {
+    height: 200px;
+}
+
+.rating {
+    width: 60px;
+    height: 40px;
+}
+
+.user:hover, .comment:hover, .rating:hover {
+    background: #bc676f;
+    border: 3px solid #bc676f;
+    color: #fad2ca;
+}
+
+.user:focus, .comment:focus,
+.rating:focus, .button:focus {
+    outline: none;
+    background: #bc676f;
+    color: #fad2ca;
+}
+
+#button_ref {
+    width: 300px;
+}
+
+.author {
+    position: absolute;
+    margin-top: 35%;
+    left: 10px;
+    color: #825F49;
+}
