@@ -1,0 +1,40 @@
+body {
+    background-color: #FBC6D0;
+    font-family: "Comic Sans MS", serif;
+}
+
+.task1, .task2 {
+    position: absolute;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+.task2 {
+    margin-top: 350px;
+}
+
+input, select {
+    position: center;
+    font-family: "Comic Sans MS", serif;
+    background-color: #95BDDC;
+    border-radius: 10px;
+    outline: none;
+}
+
+input {
+    width: 225px;
+}
+
+select {
+    width: 230px;
+}
+
+#square {
+    position: absolute;
+    top: 70px;
+    left: 47%;
+    transition: 1s all;
+    width: 100px;
+    height: 100px;
+    border: 1px #FB4C1F solid;
+}
