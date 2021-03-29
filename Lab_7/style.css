@@ -1,0 +1,54 @@
+body {
+    background-color: #E7DDD2;
+    font-family: "Comic Sans MS", serif;
+}
+
+.task1 {
+    position: absolute;
+    margin-left: 15%;
+    transform: translateX(-50%);
+}
+
+.task2 {
+    position: absolute;
+    margin-left: 45%;
+    margin-top: 250px;
+    transform: translateX(-50%);
+}
+
+.task3 {
+    position: absolute;
+    margin-left: 80%;
+    margin-top: 450px;
+    transform: translateX(-50%);
+}
+
+input, button {
+    font-family: "Comic Sans MS", serif;
+    outline: none;
+    border-radius: 20px;
+}
+
+.input1, .input2, .input3_1 {
+    width: 300px;
+}
+
+.input3_2 {
+    width: 235px;
+}
+
+button {
+    width: 60px;
+}
+
+.input1, .button1 {
+    background-color: #F4C88C;
+}
+
+.input2, .button2 {
+    background-color: #A5C6B1;
+}
+
+.input3_1, .input3_2, .button3 {
+    background-color: #D2AFAE;
+}
